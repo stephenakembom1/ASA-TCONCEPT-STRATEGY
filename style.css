@@ -1,0 +1,65 @@
+/* === General Reset & Responsive Setup === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f3f4f6;
+    color: #111827;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* === Container Utility === */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* === Flexbox Utility Classes === */
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .flex-between {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* === Buttons === */
+  .btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* === Responsive Typography & Layouts === */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .flex-between {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
