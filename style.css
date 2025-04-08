@@ -164,5 +164,76 @@
       font-size: 1rem;
     }
   }
-    
+ /* === About Section === */
+.about {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    color: #1f2937;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #111827;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    font-size: 1.1rem;
+    color: #4b5563;
+    line-height: 1.8;
+  }
+/* === Strategy Models Section === */
+.strategy {
+    background-color: #f3f4f6;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .strategy h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #111827;
+  }
+  
+  .strategy-intro {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    font-size: 1.1rem;
+    color: #4b5563;
+  }
+  
+  /* Grid Layout */
+  .strategy-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .model-card {
+    flex: 1 1 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .model-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .model-card h3 {
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  .model-card p {
+    color: #4b5563;
+    font-size: 1rem;
+  }
+       
   
